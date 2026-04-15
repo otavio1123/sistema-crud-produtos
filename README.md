@@ -27,17 +27,15 @@ O objetivo do sistema é possibilitar o cadastro, consulta, listagem, atualizaç
 - React
 
 ### Comunicação
-- Axios (requisições HTTP entre frontend e backend)
+- Axios
 
 ---
 
 ## Funcionalidades
 
-O sistema implementa as seguintes funcionalidades:
-
 - Cadastrar produto
 - Listar produtos
-- Consultar produto por nome (pesquisa)
+- Consultar produto por nome
 - Atualizar produto
 - Excluir produto
 
@@ -45,24 +43,20 @@ O sistema implementa as seguintes funcionalidades:
 
 ## Estrutura do Sistema
 
-O backend foi organizado em camadas:
+### Backend
+- Model: entidade Produto
+- Repository: acesso ao banco
+- Service: regras de negócio
+- Controller: API REST
 
-- Model: representa a entidade Produto
-- Repository: responsável pelo acesso ao banco de dados
-- Service: contém as regras de negócio
-- Controller: expõe as rotas da API REST
-
-O frontend foi desenvolvido em componentes React, incluindo:
-
-- Formulário para cadastro e edição de produtos
+### Frontend
+- Formulário de cadastro/edição
 - Lista de produtos
-- Campo de pesquisa por nome
+- Campo de pesquisa
 
 ---
 
 ## Entidade Produto
-
-A entidade Produto possui os seguintes atributos:
 
 - id
 - nome
@@ -77,8 +71,11 @@ A entidade Produto possui os seguintes atributos:
 
 ### Backend
 
-Abra um terminal e execute:
-
 ```bash
 cd backend
 .\mvnw.cmd spring-boot:run
+
+Frontend
+cd frontend
+npm install
+npm start
