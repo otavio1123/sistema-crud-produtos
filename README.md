@@ -4,6 +4,9 @@
 
 [Repositório no GitHub](https://github.com/otavio1123/sistema-crud-produtos)
 
+## Demonstração do Sistema
+
+[![Assista ao vídeo](https://img.youtube.com/vi/lUziZqmxJm4/0.jpg)](https://youtu.be/lUziZqmxJm4)
 ---
 
 ## Descrição
